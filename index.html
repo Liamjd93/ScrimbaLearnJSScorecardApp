@@ -1,0 +1,63 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="player">
+                <h2 id="archer_one">Archer One</h2>
+                <div id="p1score_card">
+                    <h1 id="p1score"></h1>
+                </div>
+                <div>
+                    <button class="p1" id="p1nine" onclick="plus_score('p1', 9)">+9</button>
+                    <button class="p1" id="p1seven" onclick="plus_score('p1', 7)">+7</button>
+                    <button class="p1" id="p1five" onclick="plus_score('p1', 5)">+5</button>
+                </div>
+                <div>
+                    <button class="p1" id="p1three" onclick="plus_score('p1', 3)">+3</button>
+                    <button class="p1" id="p1one" onclick="plus_score('p1', 1)">+1</button>
+                    <button class="p1" id="p1miss" onclick="plus_score('p1', 0)">Miss</button>
+                </div>
+                <table>
+                    <td id="p1shot_1"></td>
+                    <td id="p1shot_2"></td>
+                    <td id="p1shot_3"></td>
+                    <td id="p1shot_4"></td>
+                    <td id="p1shot_5"></td>
+                    <td id="p1shot_6"></td>    
+                </table>                
+            </div>
+            <div>
+                <button id="new_end" onclick="reset()">New End</button>
+            </div>
+            <div>
+                <div class="player">
+                    <h2 id="archer_two">Archer Two</h2>
+                    <div id="p2score_card">
+                        <h1 id="p2score"></h1>
+                    </div>
+                    <div>
+                        <button class="p2" id="p2nine" onclick="plus_score('p2', 9)">+9</button>
+                        <button class="p2" id="p2seven" onclick="plus_score('p2', 7)">+7</button>
+                        <button class="p2" id="p2five" onclick="plus_score('p2', 5)">+5</button>
+                    </div>
+                    <div>
+                        <button class="p2" id="p2three" onclick="plus_score('p2', 3)">+3</button>
+                        <button class="p2" id="p2one" onclick="plus_score('p2', 1)">+1</button>
+                        <button class="p2" id="p2miss" onclick="plus_score('p2', 0)">Miss</button>
+                    </div>
+                    <table>
+                        <td id="p2shot_1"></td>
+                        <td id="p2shot_2"></td>
+                        <td id="p2shot_3"></td>
+                        <td id="p2shot_4"></td>
+                        <td id="p2shot_5"></td>
+                        <td id="p2shot_6"></td>    
+                    </table>  
+                </div>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

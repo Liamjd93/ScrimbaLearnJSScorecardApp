@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+}
+
+h2{
+    text-align: center;
+}
+
+h1{
+    width: 80px;
+    line-height: 80px;
+    border-radius: 40px;
+    background-color: rgba(255,255,255,0.6);
+    color: black;
+    position: absolute;
+    left: 50px;
+    top: 50px;
+    margin: auto;
+    text-align: center;
+}
+
+button{
+    background-color: lightgray;
+    border-radius: 30px;
+    height: 60px;
+    width: 60px;
+    margin: 5px;
+    color: black;
+    font-weight: bolder;
+}
+
+table{
+    margin: auto;
+    margin-top: 10px;
+}
+
+td{
+    width: 20px;
+    height: 20px;
+    border: 2px solid;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 2px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    background-color: lightblue;
+    border-radius: 50px;
+    margin: 50px;
+    padding: 30px;
+}
+
+.player{
+    background-color: rgba(255,255,255,0.6);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#p1score_card, #p2score_card{
+    background-color: rgba(0,0,0,0.1);
+    height: 180px;
+    width: 180px;
+    border-radius: 90px;
+    position: relative;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#new_end{
+    width: 120px;
+    margin-top: 400px;
+}
+
+#p1nine, #p2nine{
+    background-color: gold;
+}
+
+#p1seven, #p2seven{
+    background-color: red;
+}
+
+#p1five, #p2five{
+    background-color: blue;
+    color: white;
+}
+
+#p1three, #p2three{
+    background-color: black;
+    color: white;
+}
+
+#p1one, #p2one{
+    background-color: white;
+}
